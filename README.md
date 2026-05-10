@@ -27,9 +27,6 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/430b39b7-1815-4c1c-8faa-4dfd53e263a0" alt="Повреждённый голем" width="800">
   <br><em>Трещины на теле — голем серьёзно потрёпан</em>
-</p>
-
-<p align="center">
   <br><em>При низком здоровье трещины покрывают большую часть модели</em>
 </p>
 
@@ -78,8 +75,6 @@
 ## Лицензия
 
 Мод распространяется под лицензией **MIT**. Вы можете свободно использовать, копировать, модифицировать и распространять код.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Ссылки
 
