@@ -37,10 +37,10 @@ public class ResourcePackHandler {
 
             // 3. Если мода нет — отправляем ресурспак
             if (!hasModOnClient) {
-                String url = "https://drive.google.com/uc?export=download&id=17VHQIgbCu5IUwmosVhnh2hoWROuamUEt";
+                String url = "https://drive.google.com/uc?export=download&id=1qqAvHwBwjxhEpAA5376fIlwGkwmwL_MC";
 
                 // Хеш в нижнем регистре. Если пустой "", Minecraft будет качать пак при каждом входе.
-                String hash = "A8A3663615F5898DDC7CFDDFB7216C4DE0EE2E3B";
+                String hash = "1EF83C5033E54BDF6FCB1E72803A78AA349CF137";
 
                 player.loadResourcePack(url, hash);
             }
