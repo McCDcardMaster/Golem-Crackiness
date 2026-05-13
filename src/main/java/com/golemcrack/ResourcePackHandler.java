@@ -37,7 +37,7 @@ public class ResourcePackHandler {
 
             // 3. Если мода нет — отправляем ресурспак
             if (!hasModOnClient) {
-                String url = "https://drive.google.com/uc?export=download&id=1qqAvHwBwjxhEpAA5376fIlwGkwmwL_MC";
+                String url = "https://www.curseforge.com/api/v1/mods/1541195/files/8078177/download";
 
                 // Хеш в нижнем регистре. Если пустой "", Minecraft будет качать пак при каждом входе.
                 String hash = "1EF83C5033E54BDF6FCB1E72803A78AA349CF137";
