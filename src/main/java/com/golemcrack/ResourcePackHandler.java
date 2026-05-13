@@ -11,7 +11,6 @@ public class ResourcePackHandler {
 
     @SubscribeEvent
     public void onPlayerJoin(PlayerLoggedInEvent event) {
-        // Работаем только на стороне сервера и с сетевыми игроками
         if (!(event.player instanceof EntityPlayerMP)) return;
 
         EntityPlayerMP player = (EntityPlayerMP) event.player;
@@ -29,7 +28,6 @@ public class ResourcePackHandler {
 
             if (dispatcher != null) {
                 Map<String, String> modList = dispatcher.getModList();
-                // Проверьте, что MODID совпадает с указанным в @Mod или mcmod.info
                 if (modList != null && modList.containsKey("golemcrack")) {
                     hasModOnClient = true;
                 }
@@ -40,7 +38,7 @@ public class ResourcePackHandler {
                 String url = "https://www.curseforge.com/api/v1/mods/1541195/files/8078177/download";
 
                 // Хеш в нижнем регистре. Если пустой "", Minecraft будет качать пак при каждом входе.
-                String hash = "1EF83C5033E54BDF6FCB1E72803A78AA349CF137";
+                String hash = "d334c795f8b9512c7b8ae8dab981f06220251eac";
 
                 player.loadResourcePack(url, hash);
             }
