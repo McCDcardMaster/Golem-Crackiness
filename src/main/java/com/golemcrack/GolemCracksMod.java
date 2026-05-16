@@ -9,7 +9,7 @@ public class GolemCracksMod
 {
     public static final String MOD_ID = "golemcrack";
     public static final String NAME = "Golem Crackiness Mod";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.1";
 
     @SidedProxy(clientSide = "com.golemcrack.ClientProxy", serverSide = "com.golemcrack.CommonProxy")
     public static CommonProxy proxy;
